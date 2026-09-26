@@ -55,3 +55,19 @@ repositories {
     }
 }
 ```
+
+### **If you fancy giving Mill a go for a laugh**
+
+build.mill.yaml
+```yaml
+repositories:
+  - https://maven.pkg.github.com/NekoSummer/summer
+```
+
+and credentials.properties
+
+```properties
+github.username=GitHub Username
+github.password=GitHub Token
+github.host=maven.pkg.github.com
+```
