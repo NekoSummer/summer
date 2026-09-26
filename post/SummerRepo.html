@@ -47,11 +47,11 @@
 <body>
 
 <h1>Summer Repo</h1>
-<p>It's my Maven Repo</p>
+<p>本人的Maven Repo</p>
 
-<h2>Use this repo?</h2>
+<h2>使用此仓库</h2>
 
-<h3>if maven</h3>
+<h3>如果是maven</h3>
 <p>pom.xml</p>
 <pre><code class="language-xml">&lt;repositories&gt;
     &lt;repository&gt;
@@ -60,7 +60,7 @@
     &lt;/repository&gt;
 &lt;/repositories&gt;</code></pre>
 
-<p>and settings.xml</p>
+<p>设置settings.xml</p>
 <pre><code class="language-xml">&lt;servers&gt;
     &lt;server&gt;
         &lt;id&gt;github&lt;/id&gt;
@@ -69,7 +69,7 @@
     &lt;/server&gt;
 &lt;/servers&gt;</code></pre>
 
-<h3>else if gradle</h3>
+<h3>如果是Gradle</h3>
 <p>Groovy DSL</p>
 <pre><code class="language-groovy">repositories {
     maven {
@@ -94,12 +94,12 @@
     }
 }</code></pre>
 
-<h3>If you fancy giving Mill a go for a laugh</h3>
+<h3>如果为了娱乐选择Mill</h3>
 <p>build.mill.yaml</p>
 <pre><code class="language-yaml">repositories:
   - https://maven.pkg.github.com/NekoSummer/summer</code></pre>
 
-<p>and credentials.properties</p>
+<p>设置credentials.properties</p>
 <pre><code class="language-properties">github.username=GitHub Username
 github.password=GitHub Token
 github.host=maven.pkg.github.com</code></pre>
